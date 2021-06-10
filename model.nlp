@@ -1,0 +1,2788 @@
+{
+  "settings": {
+    "languages": [
+      "es"
+    ],
+    "forceNER": true,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "es"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "es": {
+        "settings": {
+          "locale": "es",
+          "trainByDomain": false,
+          "tag": "domain-manager-es",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "problem,tarjet": {
+            "intent": "Tarjetas problemas técnicos",
+            "domain": "default"
+          },
+          "tarjet": {
+            "intent": "Tarjetas servicios",
+            "domain": "default"
+          },
+          "12,20,a,banc,con,credicoop,credit,cuot,de,del,el,financ,hast,inter,macr,medi,reintegr,s,sin,tarjet,un,utilic,y": {
+            "intent": "Tarjetas servicios",
+            "domain": "default"
+          },
+          "banc,cabal,compr,con,credicoop,credit,de,del,estar,maquin,mi,por,tarjet,una": {
+            "intent": "Tarjetas servicios",
+            "domain": "default"
+          },
+          "acept,apoy,banc,cabal,credicoop,el,favor,nacional,necesit,por,que,ser,tarjet,una,y,ya": {
+            "intent": "Tarjetas servicios",
+            "domain": "default"
+          },
+          "20%,2020,ahorr,banc,con,credicoop,credit,de,debit,el,mart,par,promocion,septiembr,tarjet,val": {
+            "intent": "Tarjetas servicios",
+            "domain": "default"
+          },
+          "a,acced,banking,contrasen,credicoop,cuand,dec,el,habilit,hom,me,mi,movil,no,oper,par,pon,y": {
+            "intent": "Banca Online",
+            "domain": "default"
+          },
+          "credicoop,transferent,una": {
+            "intent": "Banca Online",
+            "domain": "default"
+          },
+          "#credicoop,@fbcredicoop,a,algu,app,caer,desd,el,le,mas,ni,no,pagin,pas,pod,se,web": {
+            "intent": "Banca Online",
+            "domain": "default"
+          },
+          "banc,de,el,internet,movil,poc,practic,terror,x": {
+            "intent": "Banca Online",
+            "domain": "default"
+          },
+          "banc,banking,credicoop,del,el,estar,hom,usand": {
+            "intent": "Banca Online",
+            "domain": "default"
+          },
+          "algu,banc,como,credicoop,el,en,pod,sab,sac,turn": {
+            "intent": "Atención Canales",
+            "domain": "default"
+          },
+          "0800,@bancocredicoop,atend,consult,el,nadi,necesit,operativ,realic,una,y": {
+            "intent": "Atención Canales",
+            "domain": "default"
+          },
+          "48588573,@bancocredicoop,al,atencion,atend,client,co,entend,http,le,llam,muj,no,nombr,ped,que,reci,su,t,t4ofklqy5m,tel,una": {
+            "intent": "Atención Canales",
+            "domain": "default"
+          },
+          "a,cuarenten,dar,de,debit,dej,el,en,jubil,no,plen,rt,sin,tarjet,tur,y": {
+            "intent": "Atención Canales",
+            "domain": "default"
+          },
+          "": {
+            "intent": "OtrasConsultas&Reclamos",
+            "domain": "default"
+          },
+          "aplic,bloc,clav,el,me,movil,par,tok": {
+            "intent": "APP Credicoop",
+            "domain": "default"
+          },
+          "aplic,credicoop,de,habilit,no,oper,ser": {
+            "intent": "APP Credicoop",
+            "domain": "default"
+          },
+          "rt": {
+            "intent": "OtrasOpiniones&RT",
+            "domain": "default"
+          },
+          "cajer,diner,el,estar,problem,que,ser,sin": {
+            "intent": "Cajeros automaticos",
+            "domain": "default"
+          },
+          "billet,cien,credicoop,de,el,larg,mil,nacion,priv,provinc,quinient,te,tod,y": {
+            "intent": "Cajeros automaticos",
+            "domain": "default"
+          },
+          "a,adher,banc,berazategu,credicoop,de,el,en,estar,link,ningun,o,provinc,q,quilm,red,varel": {
+            "intent": "Cajeros automaticos",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "Tarjetas problemas técnicos": "default",
+          "Tarjetas servicios": "default",
+          "Banca Online": "default",
+          "Atención Canales": "default",
+          "OtrasConsultas&Reclamos": "default",
+          "APP Credicoop": "default",
+          "OtrasOpiniones&RT": "default",
+          "Cajeros automaticos": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "tarjeta problemas",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "tarjeta",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Financiamiento de hasta 12 cuotas sin interés mediante la utilización de tarjetas de crédito del Banco Macro S.A. y Banco Credicoop con un reintegro del 20",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "estoy por comprar una máquina con tarjeta de crédito cabal del banco Credicoop mi tarjeta",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Por favor acepten la tarjeta CABAL ya que es una TARJETA Nacional y el BANCO CREDICOOP NECESITA apoyarlo",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "20% DE AHORRO CON TARJETAS DE CRÉDITO/DÉBITO DE BANCO CREDICOOP: PROMOCIÓN VÁLIDA PARA LOS MARTES DE SEPTIEMBRE 2020",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceder a home banking y a mi credicoop movil y cuando pongo la contraseña me dice operador no habilitado para operar",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "Credicoop una transferencia",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "Se cayó el @FBCredicoop? No puedo ni desde la app ni desde la página web A alguien más le pasó? #Credicoop",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "poco práctico la banca x internet  la móvil de terror",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "estoy usando el home banking del banco credicoop",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "Alguien sabe cómo puedo sacar turno en el banco Credicoop",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "@BancoCredicoop Necesito realizar una consulta operativa y el 0800 nadie atiende",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "@BancoCredicoop recién llame atención al cliente Tel 48588573 atendió una mujer que no entendí su nombre , le ped? https://t.co/t4OfkLQY5m",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT. En plena cuarentena dejan a los jubilados sin tarjeta de débito y no dan turnos.",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Me bloquearon la clave token para la aplicacion movil",
+            "intent": "APP Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "aplicacion de credicoop no soy operador habilitado",
+            "intent": "APP Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "El problema es que los cajeros están sin dinero",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Nación, provincia y Credicoop te larga billetes de mil y de quinientos. Los privados todos billetes de cien.",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "En ningún banco provincia de Quilmes, Berazategui o Varela o los Credicoop q adhieren a red link están?",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Me bloquearon la clave token para la aplicacion movil",
+            "intent": "APP Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "aplicacion de credicoop no soy operador habilitado",
+            "intent": "APP Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "tarjeta problemas",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "tarjeta",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Financiamiento de hasta 12 cuotas sin interés mediante la utilización de tarjetas de crédito del Banco Macro S.A. y Banco Credicoop con un reintegro del 20",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "estoy por comprar una máquina con tarjeta de crédito cabal del banco Credicoop mi tarjeta",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Por favor acepten la tarjeta CABAL ya que es una TARJETA Nacional y el BANCO CREDICOOP NECESITA apoyarlo",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "20% DE AHORRO CON TARJETAS DE CRÉDITO/DÉBITO DE BANCO CREDICOOP: PROMOCIÓN VÁLIDA PARA LOS MARTES DE SEPTIEMBRE 2020",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceder a home banking y a mi credicoop movil y cuando pongo la contraseña me dice operador no habilitado para operar",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "Credicoop una transferencia",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "Se cayó el @FBCredicoop? No puedo ni desde la app ni desde la página web A alguien más le pasó? #Credicoop",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "poco práctico la banca x internet  la móvil de terror",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "estoy usando el home banking del banco credicoop",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "Alguien sabe cómo puedo sacar turno en el banco Credicoop",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "@BancoCredicoop Necesito realizar una consulta operativa y el 0800 nadie atiende",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "@BancoCredicoop recién llame atención al cliente Tel 48588573 atendió una mujer que no entendí su nombre , le ped? https://t.co/t4OfkLQY5m",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT. En plena cuarentena dejan a los jubilados sin tarjeta de débito y no dan turnos.",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Me bloquearon la clave token para la aplicacion movil",
+            "intent": "APP Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "aplicacion de credicoop no soy operador habilitado",
+            "intent": "APP Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "El problema es que los cajeros están sin dinero",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Nación, provincia y Credicoop te larga billetes de mil y de quinientos. Los privados todos billetes de cien.",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "En ningún banco provincia de Quilmes, Berazategui o Varela o los Credicoop q adhieren a red link están?",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "Me bloquearon la clave token para la aplicacion movil",
+            "intent": "APP Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "aplicacion de credicoop no soy operador habilitado",
+            "intent": "APP Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "es",
+              "tag": "nlu-es",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "12": 1,
+              "20": 1,
+              "2020": 1,
+              "48588573": 1,
+              "tarjet": 1,
+              "problem": 1,
+              "financ": 1,
+              "de": 1,
+              "hast": 1,
+              "cuot": 1,
+              "sin": 1,
+              "inter": 1,
+              "medi": 1,
+              "el": 1,
+              "utilic": 1,
+              "credit": 1,
+              "del": 1,
+              "banc": 1,
+              "macr": 1,
+              "s": 1,
+              "a": 1,
+              "y": 1,
+              "credicoop": 1,
+              "con": 1,
+              "un": 1,
+              "reintegr": 1,
+              "estar": 1,
+              "por": 1,
+              "compr": 1,
+              "una": 1,
+              "maquin": 1,
+              "cabal": 1,
+              "mi": 1,
+              "favor": 1,
+              "acept": 1,
+              "ya": 1,
+              "que": 1,
+              "ser": 1,
+              "nacional": 1,
+              "necesit": 1,
+              "apoy": 1,
+              "20%": 1,
+              "ahorr": 1,
+              "debit": 1,
+              "promocion": 1,
+              "val": 1,
+              "par": 1,
+              "mart": 1,
+              "septiembr": 1,
+              "acced": 1,
+              "hom": 1,
+              "banking": 1,
+              "movil": 1,
+              "cuand": 1,
+              "pon": 1,
+              "contrasen": 1,
+              "me": 1,
+              "dec": 1,
+              "oper": 1,
+              "no": 1,
+              "habilit": 1,
+              "transferent": 1,
+              "se": 1,
+              "caer": 1,
+              "@fbcredicoop": 1,
+              "pod": 1,
+              "ni": 1,
+              "desd": 1,
+              "app": 1,
+              "pagin": 1,
+              "web": 1,
+              "algu": 1,
+              "mas": 1,
+              "le": 1,
+              "pas": 1,
+              "#credicoop": 1,
+              "poc": 1,
+              "practic": 1,
+              "x": 1,
+              "internet": 1,
+              "terror": 1,
+              "usand": 1,
+              "sab": 1,
+              "como": 1,
+              "sac": 1,
+              "turn": 1,
+              "en": 1,
+              "@bancocredicoop": 1,
+              "realic": 1,
+              "consult": 1,
+              "operativ": 1,
+              "0800": 1,
+              "nadi": 1,
+              "atend": 1,
+              "reci": 1,
+              "llam": 1,
+              "atencion": 1,
+              "al": 1,
+              "client": 1,
+              "tel": 1,
+              "muj": 1,
+              "entend": 1,
+              "su": 1,
+              "nombr": 1,
+              "ped": 1,
+              "http": 1,
+              "t": 1,
+              "co": 1,
+              "t4ofklqy5m": 1,
+              "rt": 1,
+              "plen": 1,
+              "cuarenten": 1,
+              "dej": 1,
+              "jubil": 1,
+              "dar": 1,
+              "tur": 1,
+              "bloc": 1,
+              "clav": 1,
+              "tok": 1,
+              "aplic": 1,
+              "cajer": 1,
+              "diner": 1,
+              "nacion": 1,
+              "provinc": 1,
+              "te": 1,
+              "larg": 1,
+              "billet": 1,
+              "mil": 1,
+              "quinient": 1,
+              "priv": 1,
+              "tod": 1,
+              "cien": 1,
+              "ningun": 1,
+              "quilm": 1,
+              "berazategu": 1,
+              "o": 1,
+              "varel": 1,
+              "q": 1,
+              "adher": 1,
+              "red": 1,
+              "link": 1
+            },
+            "intents": {
+              "Tarjetas problemas técnicos": 1,
+              "Tarjetas servicios": 1,
+              "Banca Online": 1,
+              "Atención Canales": 1,
+              "OtrasConsultas&Reclamos": 1,
+              "APP Credicoop": 1,
+              "OtrasOpiniones&RT": 1,
+              "Cajeros automaticos": 1
+            },
+            "intentFeatures": {
+              "Tarjetas problemas técnicos": {
+                "tarjet": 1,
+                "problem": 1
+              },
+              "Tarjetas servicios": {
+                "12": 1,
+                "20": 1,
+                "2020": 1,
+                "tarjet": 1,
+                "financ": 1,
+                "de": 1,
+                "hast": 1,
+                "cuot": 1,
+                "sin": 1,
+                "inter": 1,
+                "medi": 1,
+                "el": 1,
+                "utilic": 1,
+                "credit": 1,
+                "del": 1,
+                "banc": 1,
+                "macr": 1,
+                "s": 1,
+                "a": 1,
+                "y": 1,
+                "credicoop": 1,
+                "con": 1,
+                "un": 1,
+                "reintegr": 1,
+                "estar": 1,
+                "por": 1,
+                "compr": 1,
+                "una": 1,
+                "maquin": 1,
+                "cabal": 1,
+                "mi": 1,
+                "favor": 1,
+                "acept": 1,
+                "ya": 1,
+                "que": 1,
+                "ser": 1,
+                "nacional": 1,
+                "necesit": 1,
+                "apoy": 1,
+                "20%": 1,
+                "ahorr": 1,
+                "debit": 1,
+                "promocion": 1,
+                "val": 1,
+                "par": 1,
+                "mart": 1,
+                "septiembr": 1
+              },
+              "Banca Online": {
+                "acced": 1,
+                "a": 1,
+                "hom": 1,
+                "banking": 1,
+                "y": 1,
+                "mi": 1,
+                "credicoop": 1,
+                "movil": 1,
+                "cuand": 1,
+                "pon": 1,
+                "el": 1,
+                "contrasen": 1,
+                "me": 1,
+                "dec": 1,
+                "oper": 1,
+                "no": 1,
+                "habilit": 1,
+                "par": 1,
+                "una": 1,
+                "transferent": 1,
+                "se": 1,
+                "caer": 1,
+                "@fbcredicoop": 1,
+                "pod": 1,
+                "ni": 1,
+                "desd": 1,
+                "app": 1,
+                "pagin": 1,
+                "web": 1,
+                "algu": 1,
+                "mas": 1,
+                "le": 1,
+                "pas": 1,
+                "#credicoop": 1,
+                "poc": 1,
+                "practic": 1,
+                "banc": 1,
+                "x": 1,
+                "internet": 1,
+                "de": 1,
+                "terror": 1,
+                "estar": 1,
+                "usand": 1,
+                "del": 1
+              },
+              "Atención Canales": {
+                "48588573": 1,
+                "algu": 1,
+                "sab": 1,
+                "como": 1,
+                "pod": 1,
+                "sac": 1,
+                "turn": 1,
+                "en": 1,
+                "el": 1,
+                "banc": 1,
+                "credicoop": 1,
+                "@bancocredicoop": 1,
+                "necesit": 1,
+                "realic": 1,
+                "una": 1,
+                "consult": 1,
+                "operativ": 1,
+                "y": 1,
+                "0800": 1,
+                "nadi": 1,
+                "atend": 1,
+                "reci": 1,
+                "llam": 1,
+                "atencion": 1,
+                "al": 1,
+                "client": 1,
+                "tel": 1,
+                "muj": 1,
+                "que": 1,
+                "no": 1,
+                "entend": 1,
+                "su": 1,
+                "nombr": 1,
+                "le": 1,
+                "ped": 1,
+                "http": 1,
+                "t": 1,
+                "co": 1,
+                "t4ofklqy5m": 1,
+                "rt": 1,
+                "plen": 1,
+                "cuarenten": 1,
+                "dej": 1,
+                "a": 1,
+                "jubil": 1,
+                "sin": 1,
+                "tarjet": 1,
+                "de": 1,
+                "debit": 1,
+                "dar": 1,
+                "tur": 1
+              },
+              "OtrasConsultas&Reclamos": {},
+              "APP Credicoop": {
+                "me": 1,
+                "bloc": 1,
+                "el": 1,
+                "clav": 1,
+                "tok": 1,
+                "par": 1,
+                "aplic": 1,
+                "movil": 1,
+                "de": 1,
+                "credicoop": 1,
+                "no": 1,
+                "ser": 1,
+                "oper": 1,
+                "habilit": 1
+              },
+              "OtrasOpiniones&RT": {
+                "rt": 1
+              },
+              "Cajeros automaticos": {
+                "el": 1,
+                "problem": 1,
+                "ser": 1,
+                "que": 1,
+                "cajer": 1,
+                "estar": 1,
+                "sin": 1,
+                "diner": 1,
+                "nacion": 1,
+                "provinc": 1,
+                "y": 1,
+                "credicoop": 1,
+                "te": 1,
+                "larg": 1,
+                "billet": 1,
+                "de": 1,
+                "mil": 1,
+                "quinient": 1,
+                "priv": 1,
+                "tod": 1,
+                "cien": 1,
+                "en": 1,
+                "ningun": 1,
+                "banc": 1,
+                "quilm": 1,
+                "berazategu": 1,
+                "o": 1,
+                "varel": 1,
+                "q": 1,
+                "adher": 1,
+                "a": 1,
+                "red": 1,
+                "link": 1
+              }
+            },
+            "featuresToIntent": {
+              "12": [
+                "Tarjetas servicios"
+              ],
+              "20": [
+                "Tarjetas servicios"
+              ],
+              "2020": [
+                "Tarjetas servicios"
+              ],
+              "48588573": [
+                "Atención Canales"
+              ],
+              "tarjet": [
+                "Tarjetas problemas técnicos",
+                "Tarjetas servicios",
+                "Atención Canales"
+              ],
+              "problem": [
+                "Tarjetas problemas técnicos",
+                "Cajeros automaticos"
+              ],
+              "financ": [
+                "Tarjetas servicios"
+              ],
+              "de": [
+                "Tarjetas servicios",
+                "Banca Online",
+                "Atención Canales",
+                "APP Credicoop",
+                "Cajeros automaticos"
+              ],
+              "hast": [
+                "Tarjetas servicios"
+              ],
+              "cuot": [
+                "Tarjetas servicios"
+              ],
+              "sin": [
+                "Tarjetas servicios",
+                "Atención Canales",
+                "Cajeros automaticos"
+              ],
+              "inter": [
+                "Tarjetas servicios"
+              ],
+              "medi": [
+                "Tarjetas servicios"
+              ],
+              "el": [
+                "Tarjetas servicios",
+                "Banca Online",
+                "Atención Canales",
+                "APP Credicoop",
+                "Cajeros automaticos"
+              ],
+              "utilic": [
+                "Tarjetas servicios"
+              ],
+              "credit": [
+                "Tarjetas servicios"
+              ],
+              "del": [
+                "Tarjetas servicios",
+                "Banca Online"
+              ],
+              "banc": [
+                "Tarjetas servicios",
+                "Banca Online",
+                "Atención Canales",
+                "Cajeros automaticos"
+              ],
+              "macr": [
+                "Tarjetas servicios"
+              ],
+              "s": [
+                "Tarjetas servicios"
+              ],
+              "a": [
+                "Tarjetas servicios",
+                "Banca Online",
+                "Atención Canales",
+                "Cajeros automaticos"
+              ],
+              "y": [
+                "Tarjetas servicios",
+                "Banca Online",
+                "Atención Canales",
+                "Cajeros automaticos"
+              ],
+              "credicoop": [
+                "Tarjetas servicios",
+                "Banca Online",
+                "Atención Canales",
+                "APP Credicoop",
+                "Cajeros automaticos"
+              ],
+              "con": [
+                "Tarjetas servicios"
+              ],
+              "un": [
+                "Tarjetas servicios"
+              ],
+              "reintegr": [
+                "Tarjetas servicios"
+              ],
+              "estar": [
+                "Tarjetas servicios",
+                "Banca Online",
+                "Cajeros automaticos"
+              ],
+              "por": [
+                "Tarjetas servicios"
+              ],
+              "compr": [
+                "Tarjetas servicios"
+              ],
+              "una": [
+                "Tarjetas servicios",
+                "Banca Online",
+                "Atención Canales"
+              ],
+              "maquin": [
+                "Tarjetas servicios"
+              ],
+              "cabal": [
+                "Tarjetas servicios"
+              ],
+              "mi": [
+                "Tarjetas servicios",
+                "Banca Online"
+              ],
+              "favor": [
+                "Tarjetas servicios"
+              ],
+              "acept": [
+                "Tarjetas servicios"
+              ],
+              "ya": [
+                "Tarjetas servicios"
+              ],
+              "que": [
+                "Tarjetas servicios",
+                "Atención Canales",
+                "Cajeros automaticos"
+              ],
+              "ser": [
+                "Tarjetas servicios",
+                "APP Credicoop",
+                "Cajeros automaticos"
+              ],
+              "nacional": [
+                "Tarjetas servicios"
+              ],
+              "necesit": [
+                "Tarjetas servicios",
+                "Atención Canales"
+              ],
+              "apoy": [
+                "Tarjetas servicios"
+              ],
+              "20%": [
+                "Tarjetas servicios"
+              ],
+              "ahorr": [
+                "Tarjetas servicios"
+              ],
+              "debit": [
+                "Tarjetas servicios",
+                "Atención Canales"
+              ],
+              "promocion": [
+                "Tarjetas servicios"
+              ],
+              "val": [
+                "Tarjetas servicios"
+              ],
+              "par": [
+                "Tarjetas servicios",
+                "Banca Online",
+                "APP Credicoop"
+              ],
+              "mart": [
+                "Tarjetas servicios"
+              ],
+              "septiembr": [
+                "Tarjetas servicios"
+              ],
+              "acced": [
+                "Banca Online"
+              ],
+              "hom": [
+                "Banca Online"
+              ],
+              "banking": [
+                "Banca Online"
+              ],
+              "movil": [
+                "Banca Online",
+                "APP Credicoop"
+              ],
+              "cuand": [
+                "Banca Online"
+              ],
+              "pon": [
+                "Banca Online"
+              ],
+              "contrasen": [
+                "Banca Online"
+              ],
+              "me": [
+                "Banca Online",
+                "APP Credicoop"
+              ],
+              "dec": [
+                "Banca Online"
+              ],
+              "oper": [
+                "Banca Online",
+                "APP Credicoop"
+              ],
+              "no": [
+                "Banca Online",
+                "Atención Canales",
+                "APP Credicoop"
+              ],
+              "habilit": [
+                "Banca Online",
+                "APP Credicoop"
+              ],
+              "transferent": [
+                "Banca Online"
+              ],
+              "se": [
+                "Banca Online"
+              ],
+              "caer": [
+                "Banca Online"
+              ],
+              "@fbcredicoop": [
+                "Banca Online"
+              ],
+              "pod": [
+                "Banca Online",
+                "Atención Canales"
+              ],
+              "ni": [
+                "Banca Online"
+              ],
+              "desd": [
+                "Banca Online"
+              ],
+              "app": [
+                "Banca Online"
+              ],
+              "pagin": [
+                "Banca Online"
+              ],
+              "web": [
+                "Banca Online"
+              ],
+              "algu": [
+                "Banca Online",
+                "Atención Canales"
+              ],
+              "mas": [
+                "Banca Online"
+              ],
+              "le": [
+                "Banca Online",
+                "Atención Canales"
+              ],
+              "pas": [
+                "Banca Online"
+              ],
+              "#credicoop": [
+                "Banca Online"
+              ],
+              "poc": [
+                "Banca Online"
+              ],
+              "practic": [
+                "Banca Online"
+              ],
+              "x": [
+                "Banca Online"
+              ],
+              "internet": [
+                "Banca Online"
+              ],
+              "terror": [
+                "Banca Online"
+              ],
+              "usand": [
+                "Banca Online"
+              ],
+              "sab": [
+                "Atención Canales"
+              ],
+              "como": [
+                "Atención Canales"
+              ],
+              "sac": [
+                "Atención Canales"
+              ],
+              "turn": [
+                "Atención Canales"
+              ],
+              "en": [
+                "Atención Canales",
+                "Cajeros automaticos"
+              ],
+              "@bancocredicoop": [
+                "Atención Canales"
+              ],
+              "realic": [
+                "Atención Canales"
+              ],
+              "consult": [
+                "Atención Canales"
+              ],
+              "operativ": [
+                "Atención Canales"
+              ],
+              "0800": [
+                "Atención Canales"
+              ],
+              "nadi": [
+                "Atención Canales"
+              ],
+              "atend": [
+                "Atención Canales"
+              ],
+              "reci": [
+                "Atención Canales"
+              ],
+              "llam": [
+                "Atención Canales"
+              ],
+              "atencion": [
+                "Atención Canales"
+              ],
+              "al": [
+                "Atención Canales"
+              ],
+              "client": [
+                "Atención Canales"
+              ],
+              "tel": [
+                "Atención Canales"
+              ],
+              "muj": [
+                "Atención Canales"
+              ],
+              "entend": [
+                "Atención Canales"
+              ],
+              "su": [
+                "Atención Canales"
+              ],
+              "nombr": [
+                "Atención Canales"
+              ],
+              "ped": [
+                "Atención Canales"
+              ],
+              "http": [
+                "Atención Canales"
+              ],
+              "t": [
+                "Atención Canales"
+              ],
+              "co": [
+                "Atención Canales"
+              ],
+              "t4ofklqy5m": [
+                "Atención Canales"
+              ],
+              "rt": [
+                "Atención Canales",
+                "OtrasOpiniones&RT"
+              ],
+              "plen": [
+                "Atención Canales"
+              ],
+              "cuarenten": [
+                "Atención Canales"
+              ],
+              "dej": [
+                "Atención Canales"
+              ],
+              "jubil": [
+                "Atención Canales"
+              ],
+              "dar": [
+                "Atención Canales"
+              ],
+              "tur": [
+                "Atención Canales"
+              ],
+              "bloc": [
+                "APP Credicoop"
+              ],
+              "clav": [
+                "APP Credicoop"
+              ],
+              "tok": [
+                "APP Credicoop"
+              ],
+              "aplic": [
+                "APP Credicoop"
+              ],
+              "cajer": [
+                "Cajeros automaticos"
+              ],
+              "diner": [
+                "Cajeros automaticos"
+              ],
+              "nacion": [
+                "Cajeros automaticos"
+              ],
+              "provinc": [
+                "Cajeros automaticos"
+              ],
+              "te": [
+                "Cajeros automaticos"
+              ],
+              "larg": [
+                "Cajeros automaticos"
+              ],
+              "billet": [
+                "Cajeros automaticos"
+              ],
+              "mil": [
+                "Cajeros automaticos"
+              ],
+              "quinient": [
+                "Cajeros automaticos"
+              ],
+              "priv": [
+                "Cajeros automaticos"
+              ],
+              "tod": [
+                "Cajeros automaticos"
+              ],
+              "cien": [
+                "Cajeros automaticos"
+              ],
+              "ningun": [
+                "Cajeros automaticos"
+              ],
+              "quilm": [
+                "Cajeros automaticos"
+              ],
+              "berazategu": [
+                "Cajeros automaticos"
+              ],
+              "o": [
+                "Cajeros automaticos"
+              ],
+              "varel": [
+                "Cajeros automaticos"
+              ],
+              "q": [
+                "Cajeros automaticos"
+              ],
+              "adher": [
+                "Cajeros automaticos"
+              ],
+              "red": [
+                "Cajeros automaticos"
+              ],
+              "link": [
+                "Cajeros automaticos"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "es",
+                "tag": "nlu-es",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "tarjet",
+                "problem",
+                "12",
+                "20",
+                "financ",
+                "de",
+                "hast",
+                "cuot",
+                "sin",
+                "inter",
+                "medi",
+                "el",
+                "utilic",
+                "credit",
+                "del",
+                "banc",
+                "macr",
+                "s",
+                "a",
+                "y",
+                "credicoop",
+                "con",
+                "un",
+                "reintegr",
+                "estar",
+                "por",
+                "compr",
+                "una",
+                "maquin",
+                "cabal",
+                "mi",
+                "favor",
+                "acept",
+                "ya",
+                "que",
+                "ser",
+                "nacional",
+                "necesit",
+                "apoy",
+                "2020",
+                "20%",
+                "ahorr",
+                "debit",
+                "promocion",
+                "val",
+                "par",
+                "mart",
+                "septiembr",
+                "acced",
+                "hom",
+                "banking",
+                "movil",
+                "cuand",
+                "pon",
+                "contrasen",
+                "me",
+                "dec",
+                "oper",
+                "no",
+                "habilit",
+                "transferent",
+                "se",
+                "caer",
+                "@fbcredicoop",
+                "pod",
+                "ni",
+                "desd",
+                "app",
+                "pagin",
+                "web",
+                "algu",
+                "mas",
+                "le",
+                "pas",
+                "#credicoop",
+                "poc",
+                "practic",
+                "x",
+                "internet",
+                "terror",
+                "usand",
+                "sab",
+                "como",
+                "sac",
+                "turn",
+                "en",
+                "@bancocredicoop",
+                "realic",
+                "consult",
+                "operativ",
+                "0800",
+                "nadi",
+                "atend",
+                "48588573",
+                "reci",
+                "llam",
+                "atencion",
+                "al",
+                "client",
+                "tel",
+                "muj",
+                "entend",
+                "su",
+                "nombr",
+                "ped",
+                "http",
+                "t",
+                "co",
+                "t4ofklqy5m",
+                "rt",
+                "plen",
+                "cuarenten",
+                "dej",
+                "jubil",
+                "dar",
+                "tur",
+                "bloc",
+                "clav",
+                "tok",
+                "aplic",
+                "cajer",
+                "diner",
+                "nacion",
+                "provinc",
+                "te",
+                "larg",
+                "billet",
+                "mil",
+                "quinient",
+                "priv",
+                "tod",
+                "cien",
+                "ningun",
+                "quilm",
+                "berazategu",
+                "o",
+                "varel",
+                "q",
+                "adher",
+                "red",
+                "link"
+              ],
+              "intents": [
+                "Tarjetas problemas técnicos",
+                "Tarjetas servicios",
+                "Banca Online",
+                "Atención Canales",
+                "OtrasConsultas&Reclamos",
+                "APP Credicoop",
+                "OtrasOpiniones&RT",
+                "Cajeros automaticos"
+              ],
+              "perceptrons": [
+                [
+                  1.1345996856689453,
+                  14.19148063659668,
+                  -0.0590963214635849,
+                  -0.0590963214635849,
+                  -0.0590963214635849,
+                  -0.4737805426120758,
+                  -0.0590963214635849,
+                  -0.0590963214635849,
+                  -1.9629642963409424,
+                  -0.0590963214635849,
+                  -0.0590963214635849,
+                  -2.202704668045044,
+                  -0.0590963214635849,
+                  -0.3433564305305481,
+                  -0.23969779908657074,
+                  -0.44035181403160095,
+                  -0.0590963214635849,
+                  -0.0590963214635849,
+                  -0.22768400609493256,
+                  -0.30357757210731506,
+                  -0.49429255723953247,
+                  -0.3433564305305481,
+                  -0.0590963214635849,
+                  -0.0590963214635849,
+                  -1.8493785858154297,
+                  -0.22356121242046356,
+                  -0.12642990052700043,
+                  -0.30221760272979736,
+                  -0.12642990052700043,
+                  -0.22356121242046356,
+                  -0.12642990052700043,
+                  -0.06727562844753265,
+                  -0.06727562844753265,
+                  -0.06727562844753265,
+                  -1.8390963077545166,
+                  -1.8153425455093384,
+                  -0.06727562844753265,
+                  -0.06727562844753265,
+                  -0.06727562844753265,
+                  -0.09466202557086945,
+                  -0.09466202557086945,
+                  -0.09466202557086945,
+                  -0.22411701083183289,
+                  -0.09466202557086945,
+                  -0.09466202557086945,
+                  -0.12121225148439407,
+                  -0.09466202557086945,
+                  -0.09466202557086945,
+                  0,
+                  0,
+                  0,
+                  -0.01894805207848549,
+                  0,
+                  0,
+                  0,
+                  -0.01894805207848549,
+                  0,
+                  0,
+                  -0.1398703008890152,
+                  0,
+                  -0.046812307089567184,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  -0.03386210650205612,
+                  -0.012028547935187817,
+                  -0.012028547935187817,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.09640869498252869,
+                  -0.016472550109028816,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.016472550109028816,
+                  -0.6302175521850586,
+                  -0.09640869498252869,
+                  -0.09640869498252869,
+                  -0.09640869498252869,
+                  -0.09640869498252869,
+                  -0.09640869498252869,
+                  -0.09640869498252869,
+                  -0.01894805207848549,
+                  -0.01894805207848549,
+                  -0.01894805207848549,
+                  -0.01894805207848549,
+                  -1.7183611392974854,
+                  -1.7183611392974854,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.082605390597738
+                ],
+                [
+                  13.900177001953125,
+                  -14.034232139587402,
+                  0.4262750446796417,
+                  0.4262750446796417,
+                  0.4262750446796417,
+                  -0.6170264482498169,
+                  0.4262750446796417,
+                  0.4262750446796417,
+                  -0.4088386297225952,
+                  0.4262750446796417,
+                  0.4262750446796417,
+                  -2.421236276626587,
+                  0.4262750446796417,
+                  1.027788758277893,
+                  -0.06898684054613113,
+                  -0.10539264231920242,
+                  0.4262750446796417,
+                  0.4262750446796417,
+                  -1.2879598140716553,
+                  -0.8046088218688965,
+                  -1.2846184968948364,
+                  1.027788758277893,
+                  0.4262750446796417,
+                  0.4262750446796417,
+                  -0.8220062851905823,
+                  0.7146356701850891,
+                  0.17259959876537323,
+                  -0.29792308807373047,
+                  0.17259959876537323,
+                  0.7146356701850891,
+                  -0.46252182126045227,
+                  0.5422044992446899,
+                  0.5422044992446899,
+                  0.5422044992446899,
+                  0.3700880706310272,
+                  0.2895105481147766,
+                  0.5422044992446899,
+                  0.28443893790245056,
+                  0.5422044992446899,
+                  0.42912212014198303,
+                  0.42912212014198303,
+                  0.42912212014198303,
+                  -0.2549881339073181,
+                  0.42912212014198303,
+                  0.42912212014198303,
+                  -0.2059992253780365,
+                  0.42912212014198303,
+                  0.42912212014198303,
+                  -0.31756070256233215,
+                  -1.032681941986084,
+                  -1.032681941986084,
+                  -0.7199864983558655,
+                  -0.31756070256233215,
+                  -0.31756070256233215,
+                  -0.31756070256233215,
+                  -0.31756070256233215,
+                  -0.31756070256233215,
+                  -0.6291376948356628,
+                  -1.66106379032135,
+                  -0.6291376948356628,
+                  -0.7270071506500244,
+                  -0.10965662449598312,
+                  -0.10965662449598312,
+                  -0.10965662449598312,
+                  -0.3366921544075012,
+                  -0.10965662449598312,
+                  -0.10965662449598312,
+                  -0.10965662449598312,
+                  -0.10965662449598312,
+                  -0.10965662449598312,
+                  -0.3366921544075012,
+                  -0.10965662449598312,
+                  -0.17500868439674377,
+                  -0.10965662449598312,
+                  -0.10965662449598312,
+                  -0.24364545941352844,
+                  -0.24364545941352844,
+                  -0.24364545941352844,
+                  -0.24364545941352844,
+                  -0.24364545941352844,
+                  -0.4769507050514221,
+                  -0.17220723628997803,
+                  -0.17220723628997803,
+                  -0.17220723628997803,
+                  -0.17220723628997803,
+                  -1.2041270732879639,
+                  -0.22633515298366547,
+                  -0.18332722783088684,
+                  -0.18332722783088684,
+                  -0.18332722783088684,
+                  -0.18332722783088684,
+                  -0.18332722783088684,
+                  -0.22633515298366547,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -0.010523753240704536,
+                  -1.351553201675415,
+                  -0.6839563250541687,
+                  -0.6839563250541687,
+                  -0.6839563250541687,
+                  -0.6839563250541687,
+                  -0.6839563250541687,
+                  -0.6839563250541687,
+                  0,
+                  0,
+                  0,
+                  -0.07340643554925919,
+                  -0.09512589126825333,
+                  -0.09512589126825333,
+                  -0.1381397545337677,
+                  -0.3287349045276642,
+                  -0.1381397545337677,
+                  -0.1381397545337677,
+                  -0.1381397545337677,
+                  -0.1381397545337677,
+                  -0.1381397545337677,
+                  -0.1381397545337677,
+                  -0.1381397545337677,
+                  -0.1381397545337677,
+                  -0.1303730309009552,
+                  -0.1303730309009552,
+                  -0.1303730309009552,
+                  -0.1303730309009552,
+                  -0.1303730309009552,
+                  -0.1303730309009552,
+                  -0.1303730309009552,
+                  -0.1303730309009552,
+                  -0.1303730309009552,
+                  0.20624237145113378
+                ],
+                [
+                  -1.9991947412490845,
+                  -0.2190365195274353,
+                  -0.2663770020008087,
+                  -0.2663770020008087,
+                  -0.2663770020008087,
+                  -1.3384592533111572,
+                  -0.2663770020008087,
+                  -0.2663770020008087,
+                  -1.0159637928009033,
+                  -0.2663770020008087,
+                  -0.2663770020008087,
+                  0.8789364099502563,
+                  -0.2663770020008087,
+                  -1.2619374990463257,
+                  0.7255808711051941,
+                  0.9849116802215576,
+                  -0.2663770020008087,
+                  -0.2663770020008087,
+                  0.47480446100234985,
+                  -1.34014892578125,
+                  4.121585845947266,
+                  -1.2619374990463257,
+                  -0.2663770020008087,
+                  -0.2663770020008087,
+                  0.1996043622493744,
+                  -1.1472564935684204,
+                  -0.8944051265716553,
+                  4.042832374572754,
+                  -0.8944051265716553,
+                  -1.1472564935684204,
+                  -0.1457236409187317,
+                  -0.2528460919857025,
+                  -0.2528460919857025,
+                  -0.2528460919857025,
+                  -0.8769101500511169,
+                  -1.4462910890579224,
+                  -0.2528460919857025,
+                  -0.8231350183486938,
+                  -0.2528460919857025,
+                  -0.016958365216851234,
+                  -0.016958365216851234,
+                  -0.016958365216851234,
+                  -0.4262898564338684,
+                  -0.016958365216851234,
+                  -0.016958365216851234,
+                  -0.36233699321746826,
+                  -0.016958365216851234,
+                  -0.016958365216851234,
+                  0.7486845850944519,
+                  2.702291488647461,
+                  2.702291488647461,
+                  2.0168964862823486,
+                  0.7486845850944519,
+                  0.7486845850944519,
+                  0.7486845850944519,
+                  -0.3284202516078949,
+                  0.7486845850944519,
+                  -0.16311843693256378,
+                  0.13214507699012756,
+                  -0.16311843693256378,
+                  6.1027140617370605,
+                  1.1120184659957886,
+                  1.1120184659957886,
+                  1.1120184659957886,
+                  -0.10927200317382812,
+                  1.1120184659957886,
+                  1.1120184659957886,
+                  1.1120184659957886,
+                  1.1120184659957886,
+                  1.1120184659957886,
+                  -0.10927200317382812,
+                  1.1120184659957886,
+                  0.7695973515510559,
+                  1.1120184659957886,
+                  1.1120184659957886,
+                  2.3452975749969482,
+                  2.3452975749969482,
+                  2.3452975749969482,
+                  2.3452975749969482,
+                  2.3452975749969482,
+                  1.9535939693450928,
+                  -0.9900097846984863,
+                  -0.9900097846984863,
+                  -0.9900097846984863,
+                  -0.9900097846984863,
+                  -2.1411383152008057,
+                  -0.771229088306427,
+                  -0.3852618634700775,
+                  -0.3852618634700775,
+                  -0.3852618634700775,
+                  -0.3852618634700775,
+                  -0.3852618634700775,
+                  -0.771229088306427,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -0.23601996898651123,
+                  -1.0842968225479126,
+                  -0.3443182110786438,
+                  -0.3443182110786438,
+                  -0.3443182110786438,
+                  -0.3443182110786438,
+                  -0.3443182110786438,
+                  -0.3443182110786438,
+                  -0.9751980900764465,
+                  -0.9751980900764465,
+                  -0.9751980900764465,
+                  -1.926203966140747,
+                  -0.19015341997146606,
+                  -0.19015341997146606,
+                  -0.2989486753940582,
+                  -0.8270074725151062,
+                  -0.2989486753940582,
+                  -0.2989486753940582,
+                  -0.2989486753940582,
+                  -0.2989486753940582,
+                  -0.2989486753940582,
+                  -0.2989486753940582,
+                  -0.2989486753940582,
+                  -0.2989486753940582,
+                  -0.3837549388408661,
+                  -0.3837549388408661,
+                  -0.3837549388408661,
+                  -0.3837549388408661,
+                  -0.3837549388408661,
+                  -0.3837549388408661,
+                  -0.3837549388408661,
+                  -0.3837549388408661,
+                  -0.3837549388408661,
+                  0.01612804150100482
+                ],
+                [
+                  -0.11702895909547806,
+                  -0.38262778520584106,
+                  -0.18181926012039185,
+                  -0.18181926012039185,
+                  -0.18181926012039185,
+                  -0.5010396242141724,
+                  -0.18181926012039185,
+                  -0.18181926012039185,
+                  0.5574883818626404,
+                  -0.18181926012039185,
+                  -0.18181926012039185,
+                  1.1857627630233765,
+                  -0.18181926012039185,
+                  -0.4184401035308838,
+                  -0.3525066673755646,
+                  0.34422439336776733,
+                  -0.18181926012039185,
+                  -0.18181926012039185,
+                  -0.15873169898986816,
+                  1.1193599700927734,
+                  -0.6426398158073425,
+                  -0.4184401035308838,
+                  -0.18181926012039185,
+                  -0.18181926012039185,
+                  -0.6954007148742676,
+                  -0.48254677653312683,
+                  0,
+                  1.0568418502807617,
+                  0,
+                  -0.48254677653312683,
+                  -0.10582230985164642,
+                  -0.48254677653312683,
+                  -0.48254677653312683,
+                  -0.48254677653312683,
+                  -0.28897830843925476,
+                  -1.128230094909668,
+                  -0.48254677653312683,
+                  0.7778006196022034,
+                  -0.48254677653312683,
+                  -0.10025639086961746,
+                  -0.10025639086961746,
+                  -0.10025639086961746,
+                  1.0878263711929321,
+                  -0.10025639086961746,
+                  -0.10025639086961746,
+                  -0.5573790073394775,
+                  -0.10025639086961746,
+                  -0.10025639086961746,
+                  -0.10582230985164642,
+                  -0.17105108499526978,
+                  -0.17105108499526978,
+                  -0.6054793000221252,
+                  -0.10582230985164642,
+                  -0.10582230985164642,
+                  -0.10582230985164642,
+                  -0.40734362602233887,
+                  -0.10582230985164642,
+                  -0.4014114737510681,
+                  0.8116909861564636,
+                  -0.4014114737510681,
+                  -0.27187028527259827,
+                  -0.4770444631576538,
+                  -0.4770444631576538,
+                  -0.4770444631576538,
+                  1.4361584186553955,
+                  -0.4770444631576538,
+                  -0.4770444631576538,
+                  -0.4770444631576538,
+                  -0.4770444631576538,
+                  -0.4770444631576538,
+                  1.4361584186553955,
+                  -0.4770444631576538,
+                  0.036895692348480225,
+                  -0.4770444631576538,
+                  -0.4770444631576538,
+                  -0.13591191172599792,
+                  -0.13591191172599792,
+                  -0.13591191172599792,
+                  -0.13591191172599792,
+                  -0.13591191172599792,
+                  -0.034322939813137054,
+                  1.9679527282714844,
+                  1.9679527282714844,
+                  1.9679527282714844,
+                  1.9679527282714844,
+                  2.8516833782196045,
+                  1.8838346004486084,
+                  1.3151447772979736,
+                  1.3151447772979736,
+                  1.3151447772979736,
+                  1.3151447772979736,
+                  1.3151447772979736,
+                  1.8838346004486084,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.5686899423599243,
+                  0.19744430482387543,
+                  1.2414504289627075,
+                  1.2414504289627075,
+                  1.2414504289627075,
+                  1.2414504289627075,
+                  1.2414504289627075,
+                  1.2414504289627075,
+                  -0.226028710603714,
+                  -0.226028710603714,
+                  -0.226028710603714,
+                  -0.5473455190658569,
+                  -0.23935718834400177,
+                  -0.23935718834400177,
+                  -0.19461120665073395,
+                  -0.6483964323997498,
+                  -0.19461120665073395,
+                  -0.19461120665073395,
+                  -0.19461120665073395,
+                  -0.19461120665073395,
+                  -0.19461120665073395,
+                  -0.19461120665073395,
+                  -0.19461120665073395,
+                  -0.19461120665073395,
+                  -0.2835003435611725,
+                  -0.2835003435611725,
+                  -0.2835003435611725,
+                  -0.2835003435611725,
+                  -0.2835003435611725,
+                  -0.2835003435611725,
+                  -0.2835003435611725,
+                  -0.2835003435611725,
+                  -0.2835003435611725,
+                  -0.19744420027507417
+                ],
+                [
+                  -12.735541343688965,
+                  -2.1831376552581787,
+                  0,
+                  0,
+                  0,
+                  -1.7047324180603027,
+                  0,
+                  0,
+                  -0.8808287978172302,
+                  0,
+                  0,
+                  -4.247572422027588,
+                  0,
+                  -0.010917100124061108,
+                  -0.30905917286872864,
+                  -1.3268544673919678,
+                  0,
+                  0,
+                  -0.4638499915599823,
+                  -0.5693327784538269,
+                  -5.041419982910156,
+                  -0.010917100124061108,
+                  0,
+                  0,
+                  -1.212410807609558,
+                  -0.010917100124061108,
+                  -0.010917100124061108,
+                  -4.3062334060668945,
+                  -0.010917100124061108,
+                  -0.010917100124061108,
+                  -0.010917100124061108,
+                  0,
+                  0,
+                  0,
+                  -1.1367549896240234,
+                  -1.6189062595367432,
+                  0,
+                  -0.4222734868526459,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.040421485900879,
+                  0,
+                  0,
+                  0,
+                  -0.29306110739707947,
+                  -0.29306110739707947,
+                  -1.8235396146774292,
+                  0,
+                  0,
+                  0,
+                  -1.040421485900879,
+                  0,
+                  -0.7368335127830505,
+                  -1.4354279041290283,
+                  -0.7368335127830505,
+                  -3.606884479522705,
+                  -0.4421638548374176,
+                  -0.4421638548374176,
+                  -0.4421638548374176,
+                  -0.6555861234664917,
+                  -0.4421638548374176,
+                  -0.4421638548374176,
+                  -0.4421638548374176,
+                  -0.4421638548374176,
+                  -0.4421638548374176,
+                  -0.6555861234664917,
+                  -0.4421638548374176,
+                  -0.6978739500045776,
+                  -0.4421638548374176,
+                  -0.4421638548374176,
+                  -0.7817174792289734,
+                  -0.7817174792289734,
+                  -0.7817174792289734,
+                  -0.7817174792289734,
+                  -0.7817174792289734,
+                  -0.29306110739707947,
+                  -0.21283529698848724,
+                  -0.21283529698848724,
+                  -0.21283529698848724,
+                  -0.21283529698848724,
+                  -0.23452143371105194,
+                  -0.6779384613037109,
+                  -0.4222734868526459,
+                  -0.4222734868526459,
+                  -0.4222734868526459,
+                  -0.4222734868526459,
+                  -0.4222734868526459,
+                  -0.6779384613037109,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -0.25510719418525696,
+                  -12.930157661437988,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -1.040421485900879,
+                  -1.040421485900879,
+                  -1.040421485900879,
+                  -1.7786426544189453,
+                  -0.8808287978172302,
+                  -0.8808287978172302,
+                  -0.1465694010257721,
+                  -0.1682555228471756,
+                  -0.1465694010257721,
+                  -0.1465694010257721,
+                  -0.1465694010257721,
+                  -0.1465694010257721,
+                  -0.1465694010257721,
+                  -0.1465694010257721,
+                  -0.1465694010257721,
+                  -0.1465694010257721,
+                  -0.011224489659070969,
+                  -0.011224489659070969,
+                  -0.011224489659070969,
+                  -0.011224489659070969,
+                  -0.011224489659070969,
+                  -0.011224489659070969,
+                  -0.011224489659070969,
+                  -0.011224489659070969,
+                  -0.011224489659070969,
+                  13.043484032554927
+                ],
+                [
+                  -0.9904677867889404,
+                  -0.3365676999092102,
+                  -0.14107871055603027,
+                  -0.14107871055603027,
+                  -0.14107871055603027,
+                  1.480817437171936,
+                  -0.14107871055603027,
+                  -0.14107871055603027,
+                  -0.5093458294868469,
+                  -0.14107871055603027,
+                  -0.14107871055603027,
+                  -0.500622570514679,
+                  -0.14107871055603027,
+                  -0.572995662689209,
+                  -0.3059869706630707,
+                  -1.2658236026763916,
+                  -0.14107871055603027,
+                  -0.14107871055603027,
+                  -1.4022239446640015,
+                  -1.3551006317138672,
+                  0.37880679965019226,
+                  -0.572995662689209,
+                  -0.14107871055603027,
+                  -0.14107871055603027,
+                  -0.579429566860199,
+                  -0.23228546977043152,
+                  -0.09436890482902527,
+                  -0.6113803386688232,
+                  -0.09436890482902527,
+                  -0.23228546977043152,
+                  -0.8345257639884949,
+                  -0.09073211997747421,
+                  -0.09073211997747421,
+                  -0.09073211997747421,
+                  -0.5159008502960205,
+                  2.3342132568359375,
+                  -0.09073211997747421,
+                  -0.09073211997747421,
+                  -0.09073211997747421,
+                  -0.1433274745941162,
+                  -0.1433274745941162,
+                  -0.1433274745941162,
+                  -0.1433274745941162,
+                  -0.1433274745941162,
+                  -0.1433274745941162,
+                  0.9753625988960266,
+                  -0.1433274745941162,
+                  -0.1433274745941162,
+                  -0.6693801879882812,
+                  -0.6693801879882812,
+                  -0.6693801879882812,
+                  0.880018949508667,
+                  -0.6693801879882812,
+                  -0.6693801879882812,
+                  -0.6693801879882812,
+                  1.1793228387832642,
+                  -0.6693801879882812,
+                  1.7412439584732056,
+                  1.5698747634887695,
+                  1.7412439584732056,
+                  -0.1549082100391388,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.15281349420547485,
+                  -0.06187494844198227,
+                  -0.06187494844198227,
+                  -0.2539580762386322,
+                  -0.2539580762386322,
+                  -0.2539580762386322,
+                  -0.2539580762386322,
+                  -0.2539580762386322,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.08053008466959,
+                  -0.06403567641973495,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.06403567641973495,
+                  -0.42724111676216125,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  2.237379312515259,
+                  2.237379312515259,
+                  2.237379312515259,
+                  5.036688327789307,
+                  -0.241548091173172,
+                  -0.241548091173172,
+                  -0.12857498228549957,
+                  -0.26784178614616394,
+                  -0.12857498228549957,
+                  -0.12857498228549957,
+                  -0.12857498228549957,
+                  -0.12857498228549957,
+                  -0.12857498228549957,
+                  -0.12857498228549957,
+                  -0.12857498228549957,
+                  -0.12857498228549957,
+                  -0.08053008466959,
+                  -0.08053008466959,
+                  -0.08053008466959,
+                  -0.08053008466959,
+                  -0.08053008466959,
+                  -0.08053008466959,
+                  -0.08053008466959,
+                  -0.08053008466959,
+                  -0.08053008466959,
+                  0.0028162236434276485
+                ],
+                [
+                  -2.4477925300598145,
+                  -0.645328938961029,
+                  -0.020579606294631958,
+                  -0.020579606294631958,
+                  -0.020579606294631958,
+                  -0.9707515239715576,
+                  -0.020579606294631958,
+                  -0.020579606294631958,
+                  -0.8494143486022949,
+                  -0.020579606294631958,
+                  -0.020579606294631958,
+                  -1.3664569854736328,
+                  -0.020579606294631958,
+                  -0.06488398462533951,
+                  -0.10709710419178009,
+                  -0.2291608601808548,
+                  -0.020579606294631958,
+                  -0.020579606294631958,
+                  -0.8717925548553467,
+                  -0.8991279602050781,
+                  -1.0167206525802612,
+                  -0.06488398462533951,
+                  -0.020579606294631958,
+                  -0.020579606294631958,
+                  -0.14127117395401,
+                  -0.03692115843296051,
+                  -0.020135609433054924,
+                  -0.9009319543838501,
+                  -0.020135609433054924,
+                  -0.03692115843296051,
+                  -0.04234922304749489,
+                  -0.008992153219878674,
+                  -0.008992153219878674,
+                  -0.008992153219878674,
+                  -0.1368962526321411,
+                  -0.13633961975574493,
+                  -0.008992153219878674,
+                  -0.05682773515582085,
+                  -0.008992153219878674,
+                  -0.0019095288589596748,
+                  -0.0019095288589596748,
+                  -0.0019095288589596748,
+                  -0.7395631670951843,
+                  -0.0019095288589596748,
+                  -0.0019095288589596748,
+                  -0.2047376185655594,
+                  -0.0019095288589596748,
+                  -0.0019095288589596748,
+                  -0.012610862031579018,
+                  -0.06401646137237549,
+                  -0.06401646137237549,
+                  -0.2735045254230499,
+                  -0.012610862031579018,
+                  -0.012610862031579018,
+                  -0.012610862031579018,
+                  -0.20091861486434937,
+                  -0.012610862031579018,
+                  -0.07263895124197006,
+                  -0.9486284255981445,
+                  -0.07263895124197006,
+                  -0.7427597045898438,
+                  -0.040906522423028946,
+                  -0.040906522423028946,
+                  -0.040906522423028946,
+                  -0.07907859236001968,
+                  -0.040906522423028946,
+                  -0.040906522423028946,
+                  -0.040906522423028946,
+                  -0.040906522423028946,
+                  -0.040906522423028946,
+                  -0.07907859236001968,
+                  -0.040906522423028946,
+                  -0.11089702695608139,
+                  -0.040906522423028946,
+                  -0.040906522423028946,
+                  -0.0531623549759388,
+                  -0.0531623549759388,
+                  -0.0531623549759388,
+                  -0.0531623549759388,
+                  -0.0531623549759388,
+                  -0.039188824594020844,
+                  -0.017732856795191765,
+                  -0.017732856795191765,
+                  -0.017732856795191765,
+                  -0.017732856795191765,
+                  -0.7621800899505615,
+                  -0.1036655604839325,
+                  -0.03996745124459267,
+                  -0.03996745124459267,
+                  -0.03996745124459267,
+                  -0.03996745124459267,
+                  -0.03996745124459267,
+                  -0.1036655604839325,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  -0.048206526786088943,
+                  14.17519474029541,
+                  -0.735744059085846,
+                  -0.735744059085846,
+                  -0.735744059085846,
+                  -0.735744059085846,
+                  -0.735744059085846,
+                  -0.735744059085846,
+                  -0.17569726705551147,
+                  -0.17569726705551147,
+                  -0.17569726705551147,
+                  -0.23651987314224243,
+                  -0.04987819865345955,
+                  -0.04987819865345955,
+                  -0.013979895040392876,
+                  -0.022838907316327095,
+                  -0.013979895040392876,
+                  -0.013979895040392876,
+                  -0.013979895040392876,
+                  -0.013979895040392876,
+                  -0.013979895040392876,
+                  -0.013979895040392876,
+                  -0.013979895040392876,
+                  -0.013979895040392876,
+                  -0.002182944444939494,
+                  -0.002182944444939494,
+                  -0.002182944444939494,
+                  -0.002182944444939494,
+                  -0.002182944444939494,
+                  -0.002182944444939494,
+                  -0.002182944444939494,
+                  -0.002182944444939494,
+                  -0.002182944444939494,
+                  0.09529620748442558
+                ],
+                [
+                  -1.8607758283615112,
+                  1.8648778200149536,
+                  -0.2993159294128418,
+                  -0.2993159294128418,
+                  -0.2993159294128418,
+                  0.33604487776756287,
+                  -0.2993159294128418,
+                  -0.2993159294128418,
+                  1.3051573038101196,
+                  -0.2993159294128418,
+                  -0.2993159294128418,
+                  1.22724449634552,
+                  -0.2993159294128418,
+                  -0.8789564967155457,
+                  -1.206093192100525,
+                  -1.3332581520080566,
+                  -0.2993159294128418,
+                  -0.2993159294128418,
+                  -0.15895886719226837,
+                  -0.2331550270318985,
+                  -0.43163830041885376,
+                  -0.8789564967155457,
+                  -0.2993159294128418,
+                  -0.2993159294128418,
+                  2.464449405670166,
+                  -0.43760666251182556,
+                  -0.12110520899295807,
+                  -0.7539241909980774,
+                  -0.12110520899295807,
+                  -0.43760666251182556,
+                  -0.3393600285053253,
+                  -0.22567257285118103,
+                  -0.22567257285118103,
+                  -0.22567257285118103,
+                  1.790974736213684,
+                  1.388791799545288,
+                  -0.22567257285118103,
+                  -0.4182223975658417,
+                  -0.22567257285118103,
+                  -0.10580506175756454,
+                  -0.10580506175756454,
+                  -0.10580506175756454,
+                  -0.299257755279541,
+                  -0.10580506175756454,
+                  -0.10580506175756454,
+                  -0.5793009400367737,
+                  -0.10580506175756454,
+                  -0.10580506175756454,
+                  -0.1274259090423584,
+                  -0.5532464385032654,
+                  -0.5532464385032654,
+                  -0.6706603765487671,
+                  -0.1274259090423584,
+                  -0.1274259090423584,
+                  -0.1274259090423584,
+                  -0.41058558225631714,
+                  -0.1274259090423584,
+                  -0.5074207186698914,
+                  -0.9230391979217529,
+                  -0.5074207186698914,
+                  -0.05284528434276581,
+                  -0.1259111911058426,
+                  -0.1259111911058426,
+                  -0.1259111911058426,
+                  -0.404062956571579,
+                  -0.1259111911058426,
+                  -0.1259111911058426,
+                  -0.1259111911058426,
+                  -0.1259111911058426,
+                  -0.1259111911058426,
+                  -0.404062956571579,
+                  -0.1259111911058426,
+                  -0.1259111911058426,
+                  -0.1259111911058426,
+                  -0.1259111911058426,
+                  -0.19807450473308563,
+                  -0.19807450473308563,
+                  -0.19807450473308563,
+                  -0.19807450473308563,
+                  -0.19807450473308563,
+                  -0.38217368721961975,
+                  -0.20855531096458435,
+                  -0.20855531096458435,
+                  -0.20855531096458435,
+                  -0.20855531096458435,
+                  0.5531427264213562,
+                  -0.10326501727104187,
+                  -0.10326501727104187,
+                  -0.10326501727104187,
+                  -0.10326501727104187,
+                  -0.10326501727104187,
+                  -0.10326501727104187,
+                  -0.10326501727104187,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  -0.29793494939804077,
+                  -0.157697856426239,
+                  -0.157697856426239,
+                  -0.157697856426239,
+                  -0.157697856426239,
+                  -0.157697856426239,
+                  -0.157697856426239,
+                  -0.2015737146139145,
+                  -0.2015737146139145,
+                  -0.2015737146139145,
+                  -0.5786012411117554,
+                  2.124159812927246,
+                  2.124159812927246,
+                  1.2351555824279785,
+                  2.2749195098876953,
+                  1.2351555824279785,
+                  1.2351555824279785,
+                  1.2351555824279785,
+                  1.2351555824279785,
+                  1.2351555824279785,
+                  1.2351555824279785,
+                  1.2351555824279785,
+                  1.2351555824279785,
+                  1.039763331413269,
+                  1.039763331413269,
+                  1.039763331413269,
+                  1.039763331413269,
+                  1.039763331413269,
+                  1.039763331413269,
+                  1.039763331413269,
+                  1.039763331413269,
+                  1.039763331413269,
+                  -0.004101444157200806
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "es",
+        "tarjeta problemas"
+      ],
+      [
+        "es",
+        "tarjeta"
+      ],
+      [
+        "es",
+        "Financiamiento de hasta 12 cuotas sin interés mediante la utilización de tarjetas de crédito del Banco Macro S.A. y Banco Credicoop con un reintegro del 20"
+      ],
+      [
+        "es",
+        "estoy por comprar una máquina con tarjeta de crédito cabal del banco Credicoop mi tarjeta"
+      ],
+      [
+        "es",
+        "Por favor acepten la tarjeta CABAL ya que es una TARJETA Nacional y el BANCO CREDICOOP NECESITA apoyarlo"
+      ],
+      [
+        "es",
+        "20% DE AHORRO CON TARJETAS DE CRÉDITO/DÉBITO DE BANCO CREDICOOP: PROMOCIÓN VÁLIDA PARA LOS MARTES DE SEPTIEMBRE 2020"
+      ],
+      [
+        "es",
+        "Acceder a home banking y a mi credicoop movil y cuando pongo la contraseña me dice operador no habilitado para operar"
+      ],
+      [
+        "es",
+        "Credicoop una transferencia"
+      ],
+      [
+        "es",
+        "Se cayó el @FBCredicoop? No puedo ni desde la app ni desde la página web A alguien más le pasó? #Credicoop"
+      ],
+      [
+        "es",
+        "poco práctico la banca x internet  la móvil de terror"
+      ],
+      [
+        "es",
+        "estoy usando el home banking del banco credicoop"
+      ],
+      [
+        "es",
+        "Alguien sabe cómo puedo sacar turno en el banco Credicoop"
+      ],
+      [
+        "es",
+        "@BancoCredicoop Necesito realizar una consulta operativa y el 0800 nadie atiende"
+      ],
+      [
+        "es",
+        "@BancoCredicoop recién llame atención al cliente Tel 48588573 atendió una mujer que no entendí su nombre , le ped? https://t.co/t4OfkLQY5m"
+      ],
+      [
+        "es",
+        "RT. En plena cuarentena dejan a los jubilados sin tarjeta de débito y no dan turnos."
+      ],
+      [
+        "es",
+        ""
+      ],
+      [
+        "es",
+        "Me bloquearon la clave token para la aplicacion movil"
+      ],
+      [
+        "es",
+        "aplicacion de credicoop no soy operador habilitado"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "El problema es que los cajeros están sin dinero"
+      ],
+      [
+        "es",
+        "Nación, provincia y Credicoop te larga billetes de mil y de quinientos. Los privados todos billetes de cien."
+      ],
+      [
+        "es",
+        "En ningún banco provincia de Quilmes, Berazategui o Varela o los Credicoop q adhieren a red link están?"
+      ],
+      [
+        "es",
+        "Me bloquearon la clave token para la aplicacion movil"
+      ],
+      [
+        "es",
+        "aplicacion de credicoop no soy operador habilitado"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "tarjeta problemas"
+      ],
+      [
+        "es",
+        "tarjeta"
+      ],
+      [
+        "es",
+        "Financiamiento de hasta 12 cuotas sin interés mediante la utilización de tarjetas de crédito del Banco Macro S.A. y Banco Credicoop con un reintegro del 20"
+      ],
+      [
+        "es",
+        "estoy por comprar una máquina con tarjeta de crédito cabal del banco Credicoop mi tarjeta"
+      ],
+      [
+        "es",
+        "Por favor acepten la tarjeta CABAL ya que es una TARJETA Nacional y el BANCO CREDICOOP NECESITA apoyarlo"
+      ],
+      [
+        "es",
+        "20% DE AHORRO CON TARJETAS DE CRÉDITO/DÉBITO DE BANCO CREDICOOP: PROMOCIÓN VÁLIDA PARA LOS MARTES DE SEPTIEMBRE 2020"
+      ],
+      [
+        "es",
+        "Acceder a home banking y a mi credicoop movil y cuando pongo la contraseña me dice operador no habilitado para operar"
+      ],
+      [
+        "es",
+        "Credicoop una transferencia"
+      ],
+      [
+        "es",
+        "Se cayó el @FBCredicoop? No puedo ni desde la app ni desde la página web A alguien más le pasó? #Credicoop"
+      ],
+      [
+        "es",
+        "poco práctico la banca x internet  la móvil de terror"
+      ],
+      [
+        "es",
+        "estoy usando el home banking del banco credicoop"
+      ],
+      [
+        "es",
+        "Alguien sabe cómo puedo sacar turno en el banco Credicoop"
+      ],
+      [
+        "es",
+        "@BancoCredicoop Necesito realizar una consulta operativa y el 0800 nadie atiende"
+      ],
+      [
+        "es",
+        "@BancoCredicoop recién llame atención al cliente Tel 48588573 atendió una mujer que no entendí su nombre , le ped? https://t.co/t4OfkLQY5m"
+      ],
+      [
+        "es",
+        "RT. En plena cuarentena dejan a los jubilados sin tarjeta de débito y no dan turnos."
+      ],
+      [
+        "es",
+        ""
+      ],
+      [
+        "es",
+        "Me bloquearon la clave token para la aplicacion movil"
+      ],
+      [
+        "es",
+        "aplicacion de credicoop no soy operador habilitado"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "El problema es que los cajeros están sin dinero"
+      ],
+      [
+        "es",
+        "Nación, provincia y Credicoop te larga billetes de mil y de quinientos. Los privados todos billetes de cien."
+      ],
+      [
+        "es",
+        "En ningún banco provincia de Quilmes, Berazategui o Varela o los Credicoop q adhieren a red link están?"
+      ],
+      [
+        "es",
+        "Me bloquearon la clave token para la aplicacion movil"
+      ],
+      [
+        "es",
+        "aplicacion de credicoop no soy operador habilitado"
+      ],
+      [
+        "es",
+        "RT."
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {}
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}
