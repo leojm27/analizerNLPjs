@@ -3,25 +3,20 @@ const router = express.Router();
 const { NlpManager } = require('node-nlp');
 const manager = new NlpManager({ languages: ['es'], forceNER: true });
 
-/* GET users listing. */
 router.post('/', function (req, res, next) {
 
   const array = req.body;
 
-  array.forEach( async (element) => {
+  array.forEach(async (element) => {
 
-    console.log("ID: " + element.id);
     const resp = await analizeSentiment(element.text)
-      
+    console.log(`\nrespuesta ID ${element.id} : `);
     console.log(resp);
 
   });
 
-
-  //console.log(req.body);
-  res.status(200).send("oki");
-
-  //analizeSentiment();
+  /* respuesta status 200 para que no quede buscando el Postman */
+  res.status(200).send("ok");
 
 });
 
@@ -53,14 +48,12 @@ const analizeSentiment = async (text) => {
   manager.addDocument('es', 'aplicacion de credicoop no soy operador habilitado', 'APP Credicoop');
   manager.addDocument('es', 'RT.', 'OtrasOpiniones&RT');
 
-  (async () => {
-    await manager.train();
-    manager.save();
-    const response = await manager.process('es', text);
+  await manager.train();
+  manager.save();
+  const response = await manager.process('es', text);
 
-    //console.log(response);
-    return response;
-  })();
+  return response;
 }
+
 
 module.exports = router;
