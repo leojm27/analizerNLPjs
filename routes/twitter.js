@@ -9,7 +9,7 @@ router.post('/', function (req, res, next) {
 
   array.forEach(async (element) => {
 
-    const resp = await analizeSentiment(element.text)
+    const resp = await analizerToTags(element.text)
 
     if(resp){
       const { utterance, classifications, intent } = resp;
@@ -27,7 +27,7 @@ router.post('/', function (req, res, next) {
 
 });
 
-const analizeSentiment = async (text) => {
+const analizerToTags = async (text) => {
 
   manager.addDocument('es', 'bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado', 'Tarjetas problemas técnicos');
   manager.addDocument('es', 'planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal', 'Tarjetas servicios');
