@@ -337,6 +337,456 @@
             "domain": "default",
             "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
             "intent": "prensa"
+          },
+          {
+            "domain": "default",
+            "utterance": "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "app, instalar, aplicación móvil, resumen, digital, ",
+            "intent": "App Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes",
+            "intent": "Influencer"
+          },
+          {
+            "domain": "default",
+            "utterance": "sucursal, consulta, reclamo, estafa, burocracia, falta de pago",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
+            "intent": "prensa"
+          },
+          {
+            "domain": "default",
+            "utterance": "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "app, instalar, aplicación móvil, resumen, digital, ",
+            "intent": "App Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes",
+            "intent": "Influencer"
+          },
+          {
+            "domain": "default",
+            "utterance": "sucursal, consulta, reclamo, estafa, burocracia, falta de pago",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
+            "intent": "prensa"
+          },
+          {
+            "domain": "default",
+            "utterance": "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "app, instalar, aplicación móvil, resumen, digital, ",
+            "intent": "App Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes",
+            "intent": "Influencer"
+          },
+          {
+            "domain": "default",
+            "utterance": "sucursal, consulta, reclamo, estafa, burocracia, falta de pago",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
+            "intent": "prensa"
+          },
+          {
+            "domain": "default",
+            "utterance": "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "app, instalar, aplicación móvil, resumen, digital, ",
+            "intent": "App Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes",
+            "intent": "Influencer"
+          },
+          {
+            "domain": "default",
+            "utterance": "sucursal, consulta, reclamo, estafa, burocracia, falta de pago",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
+            "intent": "prensa"
+          },
+          {
+            "domain": "default",
+            "utterance": "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "app, instalar, aplicación móvil, resumen, digital, ",
+            "intent": "App Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes",
+            "intent": "Influencer"
+          },
+          {
+            "domain": "default",
+            "utterance": "sucursal, consulta, reclamo, estafa, burocracia, falta de pago",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
+            "intent": "prensa"
+          },
+          {
+            "domain": "default",
+            "utterance": "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "app, instalar, aplicación móvil, resumen, digital, ",
+            "intent": "App Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes",
+            "intent": "Influencer"
+          },
+          {
+            "domain": "default",
+            "utterance": "sucursal, consulta, reclamo, estafa, burocracia, falta de pago",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
+            "intent": "prensa"
+          },
+          {
+            "domain": "default",
+            "utterance": "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "app, instalar, aplicación móvil, resumen, digital, ",
+            "intent": "App Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes",
+            "intent": "Influencer"
+          },
+          {
+            "domain": "default",
+            "utterance": "sucursal, consulta, reclamo, estafa, burocracia, falta de pago",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
+            "intent": "prensa"
+          },
+          {
+            "domain": "default",
+            "utterance": "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "app, instalar, aplicación móvil, resumen, digital, ",
+            "intent": "App Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes",
+            "intent": "Influencer"
+          },
+          {
+            "domain": "default",
+            "utterance": "sucursal, consulta, reclamo, estafa, burocracia, falta de pago",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
+            "intent": "prensa"
+          },
+          {
+            "domain": "default",
+            "utterance": "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado",
+            "intent": "Tarjetas problemas técnicos"
+          },
+          {
+            "domain": "default",
+            "utterance": "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal",
+            "intent": "Tarjetas servicios"
+          },
+          {
+            "domain": "default",
+            "utterance": "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido",
+            "intent": "Banca Online"
+          },
+          {
+            "domain": "default",
+            "utterance": "app, instalar, aplicación móvil, resumen, digital, ",
+            "intent": "App Credicoop"
+          },
+          {
+            "domain": "default",
+            "utterance": "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones",
+            "intent": "Atención Canales"
+          },
+          {
+            "domain": "default",
+            "utterance": "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves",
+            "intent": "Cajeros automaticos"
+          },
+          {
+            "domain": "default",
+            "utterance": "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes",
+            "intent": "Influencer"
+          },
+          {
+            "domain": "default",
+            "utterance": "sucursal, consulta, reclamo, estafa, burocracia, falta de pago",
+            "intent": "OtrasConsultas&Reclamos"
+          },
+          {
+            "domain": "default",
+            "utterance": "RT.",
+            "intent": "OtrasOpiniones&RT"
+          },
+          {
+            "domain": "default",
+            "utterance": "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones",
+            "intent": "prensa"
           }
         ],
         "domains": {
@@ -1274,16 +1724,16 @@
               ],
               "perceptrons": [
                 [
-                  1.527811050415039,
-                  1.527811050415039,
-                  1.1411837339401245,
-                  1.527811050415039,
-                  1.527811050415039,
-                  1.1411837339401245,
-                  1.0441054105758667,
-                  1.527811050415039,
-                  1.527811050415039,
-                  1.527811050415039,
+                  1.5280872583389282,
+                  1.5280872583389282,
+                  1.1414597034454346,
+                  1.5280872583389282,
+                  1.5280872583389282,
+                  1.1414597034454346,
+                  1.044381856918335,
+                  1.5280872583389282,
+                  1.5280872583389282,
+                  1.5280872583389282,
                   -0.024624088779091835,
                   -0.024624088779091835,
                   -0.024624088779091835,
@@ -1385,7 +1835,7 @@
                   -0.010412279516458511,
                   -0.010412279516458511,
                   -0.010412279516458511,
-                  -0.25481289625167847,
+                  -0.2610511779785156,
                   -0.028033031150698662,
                   -0.028033031150698662,
                   -0.028033031150698662,
@@ -1411,7 +1861,7 @@
                   -0.028033031150698662,
                   -0.028033031150698662,
                   -0.028033031150698662,
-                  0.26420257883979226
+                  0.26176968678277895
                 ],
                 [
                   0,
@@ -1424,26 +1874,26 @@
                   0,
                   0,
                   0,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.3610789179801941,
-                  0.8124317526817322,
-                  0.5263441205024719,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.604803204536438,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.07499142736196518,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.8124317526817322,
-                  0.568707287311554,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.3610656261444092,
+                  0.8124184012413025,
+                  0.5263311862945557,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.6047901511192322,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.07497820258140564,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.8124184012413025,
+                  0.5686942338943481,
                   -0.1562001258134842,
                   -0.1562001258134842,
                   -0.1922551393508911,
@@ -1551,7 +2001,7 @@
                   -0.011418217793107033,
                   -0.011418217793107033,
                   -0.011418217793107033,
-                  -0.03636760316166197
+                  -0.03642022871896768
                 ],
                 [
                   -0.03503088653087616,
@@ -1560,7 +2010,7 @@
                   -0.03503088653087616,
                   -0.03503088653087616,
                   -0.2828088402748108,
-                  0.39065584540367126,
+                  0.3906765580177307,
                   -0.03503088653087616,
                   -0.03503088653087616,
                   -0.03503088653087616,
@@ -1569,41 +2019,41 @@
                   -0.09847699850797653,
                   -0.09847699850797653,
                   -0.09847699850797653,
-                  0.268052339553833,
+                  0.26807311177253723,
                   -0.09847699850797653,
                   -0.22929593920707703,
                   -0.09847699850797653,
                   -0.09847699850797653,
-                  0.5449768900871277,
+                  0.5449977517127991,
                   -0.09847699850797653,
                   -0.09847699850797653,
                   -0.09847699850797653,
-                  0.1721835434436798,
+                  0.17220428586006165,
                   -0.09847699850797653,
                   -0.09847699850797653,
                   -0.09847699850797653,
                   -0.09847699850797653,
                   -0.37636974453926086,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.3025169372558594,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.3025169372558594,
-                  0.3025169372558594,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.4583342373371124,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.7352588176727295,
-                  0.7352588176727295,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.3025377690792084,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.3025377690792084,
+                  0.3025377690792084,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.45835503935813904,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.7352796196937561,
+                  0.7352796196937561,
                   -0.34212690591812134,
                   -0.34212690591812134,
                   -0.34212690591812134,
@@ -1691,7 +2141,7 @@
                   -0.011395870707929134,
                   -0.011395870707929134,
                   -0.011395870707929134,
-                  -0.2207235186950883
+                  -0.22068085200836812
                 ],
                 [
                   -0.03907198831439018,
@@ -1726,11 +2176,11 @@
                   -0.04744889587163925,
                   -0.33914774656295776,
                   -0.33914774656295776,
-                  2.066380739212036,
+                  2.067901611328125,
                   -0.33914774656295776,
                   -0.33914774656295776,
-                  2.066380739212036,
-                  2.066380739212036,
+                  2.067901611328125,
+                  2.067901611328125,
                   -0.33914774656295776,
                   -0.33914774656295776,
                   -0.33914774656295776,
@@ -1744,9 +2194,9 @@
                   -0.33914774656295776,
                   -0.33914774656295776,
                   -0.33914774656295776,
-                  2.506901741027832,
-                  2.506901741027832,
-                  2.506901741027832,
+                  2.5084235668182373,
+                  2.5084235668182373,
+                  2.5084235668182373,
                   -0.04371482878923416,
                   -0.04371482878923416,
                   -0.04371482878923416,
@@ -1805,7 +2255,7 @@
                   -0.06311337649822235,
                   -0.06311337649822235,
                   -0.06311337649822235,
-                  -0.5375747084617615,
+                  -0.5545666217803955,
                   -0.03834494948387146,
                   -0.03834494948387146,
                   -0.03834494948387146,
@@ -1831,7 +2281,7 @@
                   -0.03834494948387146,
                   -0.03834494948387146,
                   -0.03834494948387146,
-                  0.5630083347641137
+                  0.5565707572690143
                 ],
                 [
                   -0.01348941121250391,
@@ -1887,29 +2337,29 @@
                   -0.038802482187747955,
                   -0.038802482187747955,
                   -0.038802482187747955,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.5202313661575317,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
-                  0.6215291023254395,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.52018803358078,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
+                  0.6214855313301086,
                   -0.07678123563528061,
                   -0.07678123563528061,
                   -0.07678123563528061,
@@ -1945,7 +2395,7 @@
                   -0.03360458463430405,
                   -0.03360458463430405,
                   -0.03360458463430405,
-                  -0.09352213144302368,
+                  -0.09353221952915192,
                   -0.020706094801425934,
                   -0.020706094801425934,
                   -0.020706094801425934,
@@ -1971,16 +2421,16 @@
                   -0.020706094801425934,
                   -0.020706094801425934,
                   -0.020706094801425934,
-                  0.09282780986708766
+                  0.09284173708815656
                 ],
                 [
                   -0.3083576261997223,
                   -0.3083576261997223,
-                  0.4997134804725647,
+                  0.4997021555900574,
                   -0.3083576261997223,
                   -0.3083576261997223,
-                  0.4997134804725647,
-                  0.22579219937324524,
+                  0.4997021555900574,
+                  0.22578074038028717,
                   -0.3083576261997223,
                   -0.3083576261997223,
                   -0.3083576261997223,
@@ -1989,7 +2439,7 @@
                   -0.16375528275966644,
                   -0.16375528275966644,
                   -0.16375528275966644,
-                  0.38262414932250977,
+                  0.3826126158237457,
                   -0.16375528275966644,
                   -0.30419406294822693,
                   -0.16375528275966644,
@@ -1998,12 +2448,12 @@
                   -0.16375528275966644,
                   -0.16375528275966644,
                   -0.16375528275966644,
-                  0.2541916072368622,
+                  0.25418004393577576,
                   -0.16375528275966644,
                   -0.16375528275966644,
                   -0.16375528275966644,
                   -0.16375528275966644,
-                  0.6565454006195068,
+                  0.6565341353416443,
                   -0.1417522430419922,
                   -0.1417522430419922,
                   -0.1417522430419922,
@@ -2015,7 +2465,7 @@
                   -0.1417522430419922,
                   -0.1417522430419922,
                   -0.1417522430419922,
-                  0.605360209941864,
+                  0.6053488850593567,
                   -0.1417522430419922,
                   -0.1417522430419922,
                   -0.1417522430419922,
@@ -2033,7 +2483,7 @@
                   -0.06200516223907471,
                   -0.06200516223907471,
                   -0.06200516223907471,
-                  0.7889066338539124,
+                  0.7888950109481812,
                   -0.06200516223907471,
                   -0.06200516223907471,
                   -0.06200516223907471,
@@ -2050,18 +2500,18 @@
                   -0.06200516223907471,
                   -0.06200516223907471,
                   -0.06200516223907471,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
-                  0.8792816996574402,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
+                  0.8792701363563538,
                   -0.025201287120580673,
                   -0.025201287120580673,
                   -0.025201287120580673,
@@ -2111,7 +2561,7 @@
                   -0.02069055289030075,
                   -0.02069055289030075,
                   -0.02069055289030075,
-                  -0.1782425191110126
+                  -0.17828248044003142
                 ],
                 [
                   -0.04368611425161362,
@@ -2202,30 +2652,30 @@
                   -0.006549007724970579,
                   -0.006549007724970579,
                   -0.006549007724970579,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
-                  0.8311472535133362,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
+                  0.8312646746635437,
                   -0.049141865223646164,
                   -0.049141865223646164,
                   -0.049141865223646164,
                   -0.049141865223646164,
                   -0.049141865223646164,
                   -0.049141865223646164,
-                  -0.1521943360567093,
+                  -0.15400655567646027,
                   -0.02380337193608284,
                   -0.02380337193608284,
                   -0.02380337193608284,
@@ -2251,7 +2701,7 @@
                   -0.02380337193608284,
                   -0.02380337193608284,
                   -0.02380337193608284,
-                  0.154853614687078
+                  0.15421267635496141
                 ],
                 [
                   -0.04387650638818741,
@@ -2271,14 +2721,14 @@
                   -0.23738747835159302,
                   -0.4600854814052582,
                   -0.23738747835159302,
-                  1.5432286262512207,
+                  1.5436073541641235,
                   -0.23738747835159302,
                   -0.23738747835159302,
                   -0.35726431012153625,
                   -0.23738747835159302,
                   -0.23738747835159302,
                   -0.23738747835159302,
-                  1.3524540662765503,
+                  1.3528327941894531,
                   -0.23738747835159302,
                   -0.23738747835159302,
                   -0.23738747835159302,
@@ -2286,11 +2736,11 @@
                   -0.35198432207107544,
                   -0.07242344319820404,
                   -0.07242344319820404,
-                  -0.1504228562116623,
+                  -0.15042495727539062,
                   -0.07242344319820404,
                   -0.07242344319820404,
-                  -0.1504228562116623,
-                  -0.1504228562116623,
+                  -0.15042495727539062,
+                  -0.15042495727539062,
                   -0.07242344319820404,
                   -0.07242344319820404,
                   -0.07242344319820404,
@@ -2304,9 +2754,9 @@
                   -0.07242344319820404,
                   -0.07242344319820404,
                   -0.07242344319820404,
-                  -0.05493158474564552,
-                  -0.05493158474564552,
-                  -0.05493158474564552,
+                  -0.05493368208408356,
+                  -0.05493368208408356,
+                  -0.05493368208408356,
                   -0.031221065670251846,
                   -0.031221065670251846,
                   -0.031221065670251846,
@@ -2359,13 +2809,13 @@
                   -0.046815261244773865,
                   -0.046815261244773865,
                   -0.046815261244773865,
-                  1.8383270502090454,
-                  1.8383270502090454,
-                  1.8383270502090454,
-                  1.8383270502090454,
-                  1.8383270502090454,
-                  1.8383270502090454,
-                  -0.3481190502643585,
+                  1.8387062549591064,
+                  1.8387062549591064,
+                  1.8387062549591064,
+                  1.8387062549591064,
+                  1.8387062549591064,
+                  1.8387062549591064,
+                  -0.3560587763786316,
                   -0.03832982853055,
                   -0.03832982853055,
                   -0.03832982853055,
@@ -2391,147 +2841,147 @@
                   -0.03832982853055,
                   -0.03832982853055,
                   -0.03832982853055,
-                  0.3602120649568883
+                  0.35697912622889955
                 ],
                 [
-                  -0.3551352322101593,
-                  -0.3551352322101593,
-                  -0.4381805658340454,
-                  -0.3551352322101593,
-                  -0.3551352322101593,
-                  -0.4381805658340454,
-                  -0.47762104868888855,
-                  -0.3551352322101593,
-                  -0.3551352322101593,
-                  -0.3551352322101593,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.252654492855072,
-                  -0.13126720488071442,
-                  -0.5628290176391602,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.17070773243904114,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.6843234896659851,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.13126720488071442,
-                  -0.2132139950990677,
+                  -0.36897483468055725,
+                  -0.36897483468055725,
+                  -0.4538077116012573,
+                  -0.36897483468055725,
+                  -0.36897483468055725,
+                  -0.4538077116012573,
+                  -0.49324831366539,
+                  -0.36897483468055725,
+                  -0.36897483468055725,
+                  -0.36897483468055725,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.2599456310272217,
+                  -0.13576936721801758,
+                  -0.5842280983924866,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.1752098649740219,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.7084150910377502,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.13576936721801758,
+                  -0.22050507366657257,
                   -0.029202304780483246,
                   -0.029202304780483246,
-                  -0.6563110947608948,
+                  -0.683362603187561,
                   -0.029202304780483246,
                   -0.029202304780483246,
-                  -0.6563110947608948,
-                  -0.6563110947608948,
-                  -0.029202304780483246,
-                  -0.029202304780483246,
-                  -0.029202304780483246,
-                  -0.029202304780483246,
-                  -0.120624840259552,
+                  -0.683362603187561,
+                  -0.683362603187561,
                   -0.029202304780483246,
                   -0.029202304780483246,
                   -0.029202304780483246,
+                  -0.029202304780483246,
+                  -0.1241077408194542,
                   -0.029202304780483246,
                   -0.029202304780483246,
                   -0.029202304780483246,
                   -0.029202304780483246,
                   -0.029202304780483246,
-                  -0.6168707013130188,
-                  -0.6168707013130188,
-                  -0.6168707013130188,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.24587775766849518,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.1637778878211975,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.08118429780006409,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.22617661952972412,
-                  -0.42978858947753906,
-                  -0.42978858947753906,
-                  -0.42978858947753906,
-                  -0.42978858947753906,
-                  -0.42978858947753906,
-                  -0.42978858947753906,
-                  9.870279312133789,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  -0.15521718561649323,
-                  3.8603336162039863
+                  -0.029202304780483246,
+                  -0.029202304780483246,
+                  -0.029202304780483246,
+                  -0.643921971321106,
+                  -0.643921971321106,
+                  -0.643921971321106,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.2543032169342041,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.16955433785915375,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.08466719835996628,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.23436018824577332,
+                  -0.4483000934123993,
+                  -0.4483000934123993,
+                  -0.4483000934123993,
+                  -0.4483000934123993,
+                  -0.4483000934123993,
+                  -0.4483000934123993,
+                  10.251055717468262,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  -0.15947657823562622,
+                  3.985453142193225
                 ],
                 [
                   -0.03833030164241791,
@@ -2645,33 +3095,33 @@
                   -0.027809234336018562,
                   -0.027809234336018562,
                   -0.027809234336018562,
-                  -0.08170958608388901,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.5681336522102356,
-                  0.0804923980429845
+                  -0.08172933757305145,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.5682058930397034,
+                  0.08057045414644173
                 ]
               ]
             }
@@ -2681,6 +3131,366 @@
     },
     "intentDomains": {},
     "extraSentences": [
+      [
+        "es",
+        "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"
+      ],
+      [
+        "es",
+        "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal"
+      ],
+      [
+        "es",
+        "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido"
+      ],
+      [
+        "es",
+        "app, instalar, aplicación móvil, resumen, digital, "
+      ],
+      [
+        "es",
+        "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones"
+      ],
+      [
+        "es",
+        "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves"
+      ],
+      [
+        "es",
+        "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes"
+      ],
+      [
+        "es",
+        "sucursal, consulta, reclamo, estafa, burocracia, falta de pago"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones"
+      ],
+      [
+        "es",
+        "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"
+      ],
+      [
+        "es",
+        "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal"
+      ],
+      [
+        "es",
+        "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido"
+      ],
+      [
+        "es",
+        "app, instalar, aplicación móvil, resumen, digital, "
+      ],
+      [
+        "es",
+        "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones"
+      ],
+      [
+        "es",
+        "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves"
+      ],
+      [
+        "es",
+        "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes"
+      ],
+      [
+        "es",
+        "sucursal, consulta, reclamo, estafa, burocracia, falta de pago"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones"
+      ],
+      [
+        "es",
+        "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"
+      ],
+      [
+        "es",
+        "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal"
+      ],
+      [
+        "es",
+        "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido"
+      ],
+      [
+        "es",
+        "app, instalar, aplicación móvil, resumen, digital, "
+      ],
+      [
+        "es",
+        "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones"
+      ],
+      [
+        "es",
+        "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves"
+      ],
+      [
+        "es",
+        "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes"
+      ],
+      [
+        "es",
+        "sucursal, consulta, reclamo, estafa, burocracia, falta de pago"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones"
+      ],
+      [
+        "es",
+        "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"
+      ],
+      [
+        "es",
+        "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal"
+      ],
+      [
+        "es",
+        "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido"
+      ],
+      [
+        "es",
+        "app, instalar, aplicación móvil, resumen, digital, "
+      ],
+      [
+        "es",
+        "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones"
+      ],
+      [
+        "es",
+        "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves"
+      ],
+      [
+        "es",
+        "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes"
+      ],
+      [
+        "es",
+        "sucursal, consulta, reclamo, estafa, burocracia, falta de pago"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones"
+      ],
+      [
+        "es",
+        "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"
+      ],
+      [
+        "es",
+        "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal"
+      ],
+      [
+        "es",
+        "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido"
+      ],
+      [
+        "es",
+        "app, instalar, aplicación móvil, resumen, digital, "
+      ],
+      [
+        "es",
+        "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones"
+      ],
+      [
+        "es",
+        "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves"
+      ],
+      [
+        "es",
+        "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes"
+      ],
+      [
+        "es",
+        "sucursal, consulta, reclamo, estafa, burocracia, falta de pago"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones"
+      ],
+      [
+        "es",
+        "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"
+      ],
+      [
+        "es",
+        "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal"
+      ],
+      [
+        "es",
+        "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido"
+      ],
+      [
+        "es",
+        "app, instalar, aplicación móvil, resumen, digital, "
+      ],
+      [
+        "es",
+        "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones"
+      ],
+      [
+        "es",
+        "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves"
+      ],
+      [
+        "es",
+        "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes"
+      ],
+      [
+        "es",
+        "sucursal, consulta, reclamo, estafa, burocracia, falta de pago"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones"
+      ],
+      [
+        "es",
+        "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"
+      ],
+      [
+        "es",
+        "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal"
+      ],
+      [
+        "es",
+        "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido"
+      ],
+      [
+        "es",
+        "app, instalar, aplicación móvil, resumen, digital, "
+      ],
+      [
+        "es",
+        "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones"
+      ],
+      [
+        "es",
+        "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves"
+      ],
+      [
+        "es",
+        "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes"
+      ],
+      [
+        "es",
+        "sucursal, consulta, reclamo, estafa, burocracia, falta de pago"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones"
+      ],
+      [
+        "es",
+        "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"
+      ],
+      [
+        "es",
+        "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal"
+      ],
+      [
+        "es",
+        "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido"
+      ],
+      [
+        "es",
+        "app, instalar, aplicación móvil, resumen, digital, "
+      ],
+      [
+        "es",
+        "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones"
+      ],
+      [
+        "es",
+        "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves"
+      ],
+      [
+        "es",
+        "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes"
+      ],
+      [
+        "es",
+        "sucursal, consulta, reclamo, estafa, burocracia, falta de pago"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones"
+      ],
+      [
+        "es",
+        "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"
+      ],
+      [
+        "es",
+        "planes, adicionales, financiamiento, financiación, descuentos, tarjetas, servicios, pedidos, consultas, compras, visa, débito, crédito, mastercard, dar de baja, promociones, cuotas, reintegro, cabal"
+      ],
+      [
+        "es",
+        "Acceso, homebanking, movil, banca internet,resumen, digital, chrome, navegador, transferencia, token, fuera de servicio, alias, cbu, clave, usuario, cuenta, acreditar, débito automático, web, caido"
+      ],
+      [
+        "es",
+        "app, instalar, aplicación móvil, resumen, digital, "
+      ],
+      [
+        "es",
+        "teléfono, llamar, envío, emails, atender, demora, redes sociales, llamada en espera, mensajes, tiempo, hablar con un representante, derivar llamada, minutos, turnos, paciencia, mala, atención, opciones"
+      ],
+      [
+        "es",
+        "dinero, extracción, depósito, cajero, fuera de servicio, no funciona, no tiene plata, sobre, red link, banelco, cabal, billetes, cheques, blanqueo, claves"
+      ],
+      [
+        "es",
+        "pymes, cooperativas, industriales, entidades argentinas, informativos, agricultores federales, gerente, emprendedor, presentar, videoconferencia, recaudación, comisión, directivos, comunidad, referentes"
+      ],
+      [
+        "es",
+        "sucursal, consulta, reclamo, estafa, burocracia, falta de pago"
+      ],
+      [
+        "es",
+        "RT."
+      ],
+      [
+        "es",
+        "campaña, proyectos, asistencia técnica, fundación, universidades, entrevistas, conferencias, días festivos, saludos, instituciones, filial, afiliados, sindicatos, municipios, capacitaciones, denuncias, zoom, meeting, becas, tecnologías, convenio, acuerdos, donaciones"
+      ],
       [
         "es",
         "bloqueo, inhabilitado, no puedo acceder, blanquear, clave erronea, no estar registrado"

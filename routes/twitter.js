@@ -1,53 +1,69 @@
+const { response } = require('express');
 const express = require('express');
 const router = express.Router();
 const { analizerSentiment } = require('../services/analizerSentiment');
 const { analizerToTags } = require('../services/analizerToTagsTwitter');
 
-router.post('/', async function  (req, res) {
+router.post('/', async function (req, res) {
 
   const array = req.body;
   let data = [];
 
-  await array.forEach(async (element) => {
+  if (array.length > 0) {
 
+    for await (const element of array) {
+      let sentimentAnalizer = 0;
+      let tagAnalizer = '';
 
-    const sentimentAnalizer = await analizerSentiment(element.text);
-    const analizerTag = await analizerToTags(element.text);
-    let sentiment = '';
-    let tag = '';
+      if (element.text && element.id) {
+        await analizerSentiment(element.text)
+          .then(async (response) => {
 
-    if(analizerTag){
-      const { utterance, classifications, intent } = analizerTag;
-      
-      tag = intent;
-      console.log(`\nrespuesta ID ${element.id} : `);
-      console.log("text: " + utterance);
-      console.log("clasificacion: ", classifications);
-      console.log("intent: " + intent);
+            if (response) {
+              sentimentAnalizer = response.classifications[0].intent;
+              await analizerToTags(element.text)
+                .then((response) => {
+                  if (response) {
+                    tagAnalizer = response.classifications[0].intent;
+                    data.push({
+                      id: element.id,
+                      text: element.text,
+                      sentiment: parseInt(sentimentAnalizer),
+                      tag: tagAnalizer
+                    });
+                  }
+                })
+                .catch((err) => {
+                  console.log(err);
+                })
+            }
+
+          })
+          .catch((err) => {
+            console.log(err);
+          })
+      } else {
+        console.log("no existe text");
+      }
     }
 
-    if(sentimentAnalizer){
-      const { classifications, intent } = sentimentAnalizer;
-      sentiment = intent;
-      console.log("Sentimiento: " , classifications);
-      console.log("intent: " + intent);
+    if (data.length > 0) {
+      res.status(200).json(data);
+    } else {
+      res.status(500).json({
+        code: "internal_server_error",
+        message: "The json sent is badly structured"
+      });
     }
 
-    data.push({
-      id: element.id,
-      text: element.text,
-      sentiment,
-      tag
+  } else {
+
+    res.status(500).json({
+      code: "internal_server_error",
+      message: "A json was expected"
     });
 
-    console.log("data: ",data);
-
-  })
-
-  //console.log("data: ",data);
-
-  /* respuesta status 200 para que no quede buscando el Postman */
-  res.status(200).send("ok");
+  }
 
 });
 
