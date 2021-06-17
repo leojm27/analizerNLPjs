@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { analizerSentiment } = require('../services/analizerSentiment');
 const { analizerToTags } = require('../services/analizerToTags');
+const { cleanText } = require('../utils/utils');
 
 router.post('/', async function (req, res) {
 
@@ -13,20 +14,24 @@ router.post('/', async function (req, res) {
     for await (const element of array) {
       let sentimentAnalizer = 0;
       let tagAnalizer = '';
+      let text = '';
 
       if (element.text && element.id) {
-        await analizerSentiment(element.text)
+
+        text = cleanText(element.text);
+        
+        await analizerSentiment(text)
           .then(async (response) => {
 
             if (response) {
               sentimentAnalizer = response.classifications[0].intent;
-              await analizerToTags(element.text)
+              await analizerToTags(text)
                 .then((response) => {
                   if (response) {
                     tagAnalizer = response.classifications[0].intent;
                     data.push({
                       id: element.id,
-                      text: element.text,
+                      text,
                       sentiment: parseInt(sentimentAnalizer),
                       tag: tagAnalizer
                     });
