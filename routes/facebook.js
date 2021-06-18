@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { analizerSentiment } = require('../services/analizerSentiment');
 const { analizerToTags } = require('../services/analizerToTags');
-const utils = require('../utils/utils');
+const { cleanText }  = require('../utils/utils');
 
 router.post('/', async function (req, res) {
 
@@ -18,7 +18,7 @@ router.post('/', async function (req, res) {
 
       if (element.text && element.id) {
 
-        text = utils.cleanText(element.text);
+        text = cleanText(element.text);
         
         await analizerSentiment(text)
           .then(async (response) => {
