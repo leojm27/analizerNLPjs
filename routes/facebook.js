@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const { analizerSentiment } = require('../services/analizerSentiment');
 const { analizerToTags } = require('../services/analizerToTags');
-const { cleanText } = require('../utils/utils');
+const utils = require('../utils/utils');
 
 router.post('/', async function (req, res) {
 
@@ -18,7 +18,7 @@ router.post('/', async function (req, res) {
 
       if (element.text && element.id) {
 
-        text = cleanText(element.text);
+        text = utils.cleanText(element.text);
         
         await analizerSentiment(text)
           .then(async (response) => {
@@ -47,7 +47,7 @@ router.post('/', async function (req, res) {
             console.log(err);
           })
       } else {
-        console.log("no existe text");
+        console.log("there is not text");
       }
     }
 

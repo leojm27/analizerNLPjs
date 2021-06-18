@@ -48,7 +48,7 @@ router.post('/', async function (req, res) {
             console.log(err);
           })
       } else {
-        console.log("no existe text");
+        console.log("there is not text");
       }
     }
 
