@@ -4,10 +4,11 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
-const twitterRouter = require('./routes/twitter');
-const facebookRouter = require('./routes/facebook');
+const config = require('./database/config');
 
 const app = express();
+
+config.init();
 
 app.use(logger('dev'));
 app.use(express.json());
@@ -15,8 +16,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 app.use('/', indexRouter);
-app.use('/twitter', twitterRouter);
-app.use('/facebook', facebookRouter);
 
 module.exports = app;
